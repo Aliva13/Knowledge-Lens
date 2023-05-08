@@ -1,70 +1,53 @@
-"""creating methods in global area"""
-import sys
-
-
-def add(abc, xyz):
-    """ add method"""
-    return abc + xyz
-
-
-def subtract(abc, xyz):
-    """subtract method"""
-    return abc - xyz
-
-
-def multiply(abc, xyz):
-    """multiply method"""
-    return abc * xyz
-
-
-def divide(abc, xyz):
-    """divide method"""
-    if xyz == 0:
-        raise ValueError("Cannot divide by zero")
-    return abc / xyz
-
-
-def _del_():
-    """delete method"""
-    print("Calculator is shutting down...")
-
-
-def _init_():
-    print("Calculator is starting up...")
-
-
 class Calculator:
-    """class creation"""
+    def _init_(self):
+        pass
+
+    def add(self, num1, num2):
+        return num1 + num2
+
+    def subtract(self, num1, num2):
+        return num1 - num2
+
+    def multiply(self, num1, num2):
+        return num1 * num2
+
+    def divide(self, num1, num2):
+        if num2 == 0:
+            return "Cannot divide by zero"
+        else:
+            return num1 / num2
 
 
-
-# create an instance of the Calculator class
+# main program
 calc = Calculator()
 
-# prompt the user for two numbers and an operation
-x = float(input("Enter the first number: "))
-y = float(input("Enter the second number: "))
-operation = input("Enter the operation (+, -, *, /): ")
+while True:
+    print("Choose an operation:")
+    print("1. Add")
+    print("2. Subtract")
+    print("3. Multiply")
+    print("4. Divide")
+    print("5. Quit")
 
-# perform the selected operation on the two numbers
-if operation == "+":
-    result = add(x, y)
-elif operation == "-":
-    result = subtract(x, y)
-elif operation == "*":
-    result = multiply(x, y)
-elif operation == "/":
-    try:
-        result = divide(x, y)
-    except ValueError as e:
-        print(e)
-        sys.exit()
-else:
-    print("Error: Invalid operation entered.")
-    sys.exit()
+    choice = input("Enter choice (1/2/3/4/5): ")
 
-# print out the result of the calculation
-print("Result: ", result)
+    if choice == '5':
+        break
 
-# destroy the Calculator object
-del calc
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+
+    if choice == '1':
+        print(num1, "+", num2, "=", calc.add(num1, num2))
+
+    elif choice == '2':
+        print(num1, "-", num2, "=", calc.subtract(num1, num2))
+
+    elif choice == '3':
+        print(num1, "*", num2, "=", calc.multiply(num1, num2))
+
+    elif choice == '4':
+        print(num1, "/", num2, "=", calc.divide(num1, num2))
+
+    else:
+        print("Invalid input")
