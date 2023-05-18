@@ -9,9 +9,6 @@ class APis:
 
 
 class DBConstants:
-    # user_db_name = 'Aliva'
-    # user_collection_name = 'users'
-    # grocery_details_collection_name = 'grocery'
     DB_URI = 'mongodb://intern_23:intern%40123@192.168.0.220:2717/interns_b2_23'
     DB_DATABASE = 'interns_b2_23'
     DB_COllECTION = 'Aliva_GROCERY'
