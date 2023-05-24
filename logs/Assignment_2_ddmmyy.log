@@ -1,0 +1,101 @@
+2023-05-24 09:37:42,011 - INFO - billing_service.py:15 - view_all_items - Services:view_All_items
+2023-05-24 09:37:42,019 - INFO - billing_handler.py:19 - read_data - Handler:read_data
+2023-05-24 09:37:42,020 - INFO - billing_handler.py:21 - read_data - read_data:Record Found
+2023-05-24 09:41:16,748 - INFO - billing_service.py:26 - create_item - Services:create_item
+2023-05-24 09:41:16,752 - INFO - billing_handler.py:29 - create_data - Handler:create_data
+2023-05-24 09:41:16,794 - INFO - billing_handler.py:31 - create_data - create_data:record created successfully
+2023-05-24 09:41:50,300 - INFO - billing_service.py:36 - update_item - Services:update_item
+2023-05-24 09:41:50,302 - INFO - billing_handler.py:40 - update_data - Handler:update_data
+2023-05-24 09:41:50,351 - INFO - billing_handler.py:42 - update_data - update_data:record updated successfully
+2023-05-24 09:42:24,450 - INFO - billing_service.py:36 - update_item - Services:update_item
+2023-05-24 09:42:24,452 - INFO - billing_handler.py:40 - update_data - Handler:update_data
+2023-05-24 09:42:24,499 - INFO - billing_handler.py:42 - update_data - update_data:record updated successfully
+2023-05-24 09:42:57,064 - INFO - billing_service.py:47 - delete_item - Services:delete_item
+2023-05-24 09:42:57,066 - INFO - billing_handler.py:50 - delete_data - Handler:delete_data
+2023-05-24 09:42:57,138 - INFO - billing_handler.py:52 - delete_data - delete_data:record deleted successfully
+2023-05-24 09:45:01,325 - INFO - billing_service.py:58 - send_item - Services:send_item
+2023-05-24 09:45:01,327 - INFO - billing_handler.py:61 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-24 09:45:01,327 - INFO - MongoDB.py:15 - pipeline_aggregation - MongoDB:pipeline_aggregation
+2023-05-24 09:45:20,329 - INFO - billing_service.py:71 - get_grocery - Services:get_grocery
+2023-05-24 09:45:20,330 - INFO - billing_handler.py:61 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-24 09:45:20,331 - INFO - MongoDB.py:15 - pipeline_aggregation - MongoDB:pipeline_aggregation
+2023-05-24 09:48:21,472 - INFO - billing_service.py:58 - send_item - Services:send_item
+2023-05-24 09:48:21,475 - INFO - billing_handler.py:60 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-24 09:48:21,475 - INFO - MongoDB.py:15 - pipeline_aggregation - MongoDB:pipeline_aggregation
+2023-05-24 09:48:30,147 - INFO - billing_service.py:71 - get_grocery - Services:get_grocery
+2023-05-24 09:48:30,149 - INFO - billing_handler.py:60 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-24 09:48:30,149 - INFO - MongoDB.py:15 - pipeline_aggregation - MongoDB:pipeline_aggregation
+2023-05-24 09:57:21,430 - INFO - billing_service.py:59 - send_item - Services:send_item
+2023-05-24 09:57:21,432 - INFO - billing_handler.py:60 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-24 09:57:21,432 - INFO - MongoDB.py:15 - pipeline_aggregation - MongoDB:pipeline_aggregation
+2023-05-24 09:57:34,088 - INFO - billing_service.py:72 - get_grocery - Services:get_grocery
+2023-05-24 09:57:34,090 - INFO - billing_handler.py:60 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-24 09:57:34,090 - INFO - MongoDB.py:15 - pipeline_aggregation - MongoDB:pipeline_aggregation
+2023-05-24 09:59:01,175 - INFO - billing_service.py:15 - view_all_items - Services:view_All_items
+2023-05-24 09:59:01,178 - INFO - billing_handler.py:19 - read_data - Handler:read_data
+2023-05-24 09:59:01,179 - INFO - billing_handler.py:21 - read_data - read_data:Record Found
+2023-05-24 10:13:47,798 - INFO - main.py:13 - <module> - main: main file started
+2023-05-24 10:15:18,870 - INFO - billing_service.py:59 - send_item - Services:send_item
+2023-05-24 10:15:18,872 - INFO - billing_handler.py:60 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-24 10:15:18,874 - INFO - MongoDB.py:15 - pipeline_aggregation - MongoDB:pipeline_aggregation
+2023-05-24 10:21:58,394 - INFO - billing_service.py:71 - get_grocery - Services:get_grocery
+2023-05-24 10:21:58,402 - INFO - billing_handler.py:60 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-24 10:21:58,403 - INFO - MongoDB.py:15 - pipeline_aggregation - MongoDB:pipeline_aggregation
+2023-05-24 10:22:39,289 - INFO - billing_service.py:58 - send_item - Services:send_item
+2023-05-24 10:22:39,291 - INFO - billing_handler.py:60 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-24 10:22:39,291 - INFO - MongoDB.py:15 - pipeline_aggregation - MongoDB:pipeline_aggregation
+2023-05-24 10:28:30,742 - INFO - billing_service.py:78 - get_grocery - Services:get_grocery
+2023-05-24 10:28:30,746 - INFO - billing_handler.py:60 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-24 10:28:30,746 - INFO - MongoDB.py:15 - pipeline_aggregation - MongoDB:pipeline_aggregation
+2023-05-24 10:31:12,094 - INFO - billing_handler.py:19 - read_data - Handler:read_data
+2023-05-24 10:31:12,094 - INFO - billing_handler.py:21 - read_data - read_data:Record Found
+2023-05-24 10:31:12,155 - INFO - billing_service.py:63 - send_item - services:send_item
+2023-05-24 10:31:12,156 - INFO - billing_handler.py:60 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-24 10:31:12,157 - INFO - MongoDB.py:15 - pipeline_aggregation - MongoDB:pipeline_aggregation
+2023-05-24 10:31:13,872 - INFO - billing_service.py:69 - send_item - send_item: Email Sent
+2023-05-24 10:42:45,321 - INFO - billing_service.py:16 - view_all_items - Services:view_All_items
+2023-05-24 10:42:45,324 - INFO - billing_handler.py:19 - read_data - Handler:read_data
+2023-05-24 10:42:45,325 - INFO - billing_handler.py:21 - read_data - read_data:Record Found
+2023-05-24 10:43:51,400 - INFO - billing_handler.py:19 - read_data - Handler:read_data
+2023-05-24 10:43:51,400 - INFO - billing_handler.py:21 - read_data - read_data:Record Found
+2023-05-24 10:43:51,448 - INFO - billing_service.py:63 - send_item - services:send_item
+2023-05-24 10:43:51,449 - INFO - billing_handler.py:61 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-24 10:43:51,449 - INFO - MongoDB.py:15 - pipeline_aggregation - MongoDB:pipeline_aggregation
+2023-05-24 10:43:51,501 - INFO - email_handler.py:22 - send_email - Handlers:send_email
+2023-05-24 10:43:52,923 - ERROR - email_handler.py:33 - send_email - Exception in send_email:'NoneType' object has no attribute 'encode'
+2023-05-24 10:43:52,925 - INFO - billing_service.py:69 - send_item - send_item: Email Sent
+2023-05-24 10:49:47,013 - INFO - billing_handler.py:19 - read_data - Handler:read_data
+2023-05-24 10:49:47,013 - INFO - billing_handler.py:21 - read_data - read_data:Record Found
+2023-05-24 10:49:47,085 - INFO - billing_service.py:63 - send_item - services:send_item
+2023-05-24 10:49:47,089 - INFO - billing_handler.py:62 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-24 10:49:47,091 - INFO - MongoDB.py:15 - pipeline_aggregation - MongoDB:pipeline_aggregation
+2023-05-24 10:49:47,155 - INFO - email_handler.py:22 - send_email - Handlers:send_email
+2023-05-24 10:49:48,587 - ERROR - email_handler.py:33 - send_email - Exception in send_email:'NoneType' object has no attribute 'encode'
+2023-05-24 10:49:48,589 - INFO - billing_service.py:69 - send_item - send_item: Email Sent
+2023-05-24 11:04:15,013 - INFO - billing_handler.py:19 - read_data - Handler:read_data
+2023-05-24 11:04:15,014 - INFO - billing_handler.py:21 - read_data - read_data:Record Found
+2023-05-24 11:04:15,773 - INFO - billing_service.py:63 - send_item - services:send_item
+2023-05-24 11:04:15,781 - INFO - email_handler.py:22 - send_email - Handlers:send_email
+2023-05-24 11:04:18,026 - ERROR - email_handler.py:33 - send_email - Exception in send_email:'NoneType' object has no attribute 'encode'
+2023-05-24 11:04:18,029 - INFO - billing_service.py:69 - send_item - send_item: Email Sent
+2023-05-24 11:08:06,187 - INFO - billing_handler.py:19 - read_data - Handler:read_data
+2023-05-24 11:08:06,188 - INFO - billing_handler.py:21 - read_data - read_data:Record Found
+2023-05-24 11:08:06,317 - INFO - billing_service.py:63 - send_item - services:send_item
+2023-05-24 11:08:06,321 - INFO - email_handler.py:25 - send_email - Handlers:send_email
+2023-05-24 11:08:08,056 - ERROR - email_handler.py:36 - send_email - Exception in send_email:'NoneType' object has no attribute 'encode'
+2023-05-24 11:08:08,057 - INFO - billing_service.py:69 - send_item - send_item: Email Sent
+2023-05-24 11:16:09,415 - INFO - billing_handler.py:19 - read_data - Handler:read_data
+2023-05-24 11:16:09,417 - INFO - billing_handler.py:21 - read_data - read_data:Record Found
+2023-05-24 11:16:09,525 - INFO - billing_service.py:63 - send_item - services:send_item
+2023-05-24 11:16:09,530 - INFO - email_handler.py:25 - send_email - Handlers:send_email
+2023-05-24 11:16:11,172 - ERROR - email_handler.py:36 - send_email - Exception in send_email:'NoneType' object has no attribute 'encode'
+2023-05-24 11:16:11,173 - INFO - billing_service.py:69 - send_item - send_item: Email Sent
+2023-05-24 11:17:04,770 - INFO - billing_handler.py:19 - read_data - Handler:read_data
+2023-05-24 11:17:04,772 - INFO - billing_handler.py:21 - read_data - read_data:Record Found
+2023-05-24 11:17:04,963 - INFO - billing_service.py:63 - send_item - services:send_item
+2023-05-24 11:17:04,971 - INFO - email_handler.py:25 - send_email - Handlers:send_email
+2023-05-24 11:17:08,582 - INFO - email_handler.py:33 - send_email - send_email:email sent !!!!!!
+2023-05-24 11:17:08,583 - INFO - billing_service.py:69 - send_item - send_item: Email Sent
+2023-05-24 11:18:28,263 - INFO - billing_service.py:16 - view_all_items - Services:view_All_items
+2023-05-24 11:18:28,269 - INFO - billing_handler.py:19 - read_data - Handler:read_data
+2023-05-24 11:18:28,269 - INFO - billing_handler.py:21 - read_data - read_data:Record Found
